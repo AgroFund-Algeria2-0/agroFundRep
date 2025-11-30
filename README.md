@@ -146,7 +146,7 @@ NODE_ENV="development"
 
 # Backend (production)
 cd backend
-npm run build        # if using TypeScript/babel
+npm run build        
 NODE_ENV=production npm start
 
 # Frontend (production)
@@ -156,14 +156,14 @@ npm run build
 
 Troubleshooting
 
-Database connection → check DATABASE_URL and Neon IP whitelist
-CORS errors → verify allowed origins in backend
-AI model not loading → confirm model path & Python requirements
-JWT issues → ensure same JWT_SECRET and token not expired
+Database connection 
+CORS errors 
+AI model not loading 
+JWT issues
 
 
 License
-MIT License (or your preferred license)
+MIT License 
 
 Acknowledgments
 Immense gratitude to farmers, agronomists, investment experts, and the open-source community.
